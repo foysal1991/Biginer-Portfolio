@@ -1,0 +1,63 @@
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  .responsive-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .col-6 {
+    width: 95%;
+  }
+
+  .experience {
+    padding: 30px;
+  }
+
+  .experience .col-6 {
+    padding: 30px 20px;
+  }
+
+  #full-stack {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  #baby-dev {
+    margin-left: 0;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  h5{
+      line-height: 1.7;
+  }
+}

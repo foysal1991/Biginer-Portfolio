@@ -153,6 +153,10 @@ img {
   box-shadow: 4px 6px 20px gray;
 }
 
+.experience p{
+      margin-bottom: 0;
+  }
+  
 #full-stack {
   border-image: linear-gradient(180deg, purple, magenta);
   border-image-slice: 1;
