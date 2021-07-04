@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  place-items: center;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.welcome-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #272727;
+  line-height: 1.7;
+}
+
+h2 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #2d2d2d;
+  line-height: 1.7;
+}
+
+h3 {
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #272727;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: coral;
+  line-height: 2;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+span {
+  color: orange;
+}
+
+img {
+  width: 80%;
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.hire-btn {
+  background: linear-gradient(45deg, orange, tomato);
+}
+
+.download-btn {
+  background: linear-gradient(45deg, #ff468f, #723ed9);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 50px 0;
+}
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 50px 0;
+}
+
+.title {
+  /* text-align: center; */
+  margin-bottom: 60px;
+}
+
+.experience .col-6 {
+  padding: 30px 40px;
+  box-shadow: 2px 3px 20px gray;
+  border-left: 5px solid;
+  border-radius: 10px;
+}
+
+#full-stack {
+  border-image: linear-gradient(180deg, purple, magenta);
+  border-image-slice: 1;
+  margin-right: 20px;
+}
+
+#baby-dev {
+  border-image: linear-gradient(180deg, tomato, magenta);
+  border-image-slice: 1;
+  margin-left: 20px;
+}
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+  color: #888;
+  font-weight: 400;
+}
